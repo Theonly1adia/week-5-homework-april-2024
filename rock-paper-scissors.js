@@ -7,6 +7,37 @@ if(player1 === "rock" && player2 === "paper") {
   document.write("player 2 wins!")
 }
 // TODO: write all the conditions to indicate who will win the game.
+if(player1 === "rock" && player2 === "scissors") {
+  document.write("player 1 wins!")
+}
+
+if(player1 === "rock" && player2 === "rock") {
+  document.write("Tie!")
+}
+
+if(player1 === "paper" && player2 === "rock") {
+  document.write("player 1 wins!")
+}
+
+if(player1 === "paper" && player2 === "scissors") {
+  document.write("player 2 wins!")
+}
+
+if(player1 === "paper" && player2 === "paper") {
+  document.write("Tie!")
+}
+
+if(player1 === "scissors" && player2 === "paper") {
+  document.write("player 1 wins!")
+}
+
+if(player1 === "scissors" && player2 === "scissors") {
+  document.write("Tie!")
+}
+
+if(player1 === "scissors" && player2 === "rock") {
+  document.write("player 2 wins!")
+}
 
 
 // TODO: Add some HTML and CSS to make the page nice
